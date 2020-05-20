@@ -1,0 +1,20 @@
+{
+  "name": "purescript-web-pointerevents",
+  "homepage": "https://github.com/keijokapp/purescript-web-pointerevents",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keijokapp/purescript-web-pointerevents.git"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-web-uievents": "^2.0.0"
+  }
+}
