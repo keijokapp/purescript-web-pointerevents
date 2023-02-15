@@ -1,101 +1,99 @@
-"use strict";
-
-exports.screenX = function (e) {
+export function screenX(e) {
   return e.screenX;
-};
+}
 
-exports.screenY = function (e) {
+export function screenY(e) {
   return e.screenY;
-};
+}
 
-exports.clientX = function (e) {
+export function clientX(e) {
   return e.clientX;
-};
+}
 
-exports.clientY = function (e) {
+export function clientY(e) {
   return e.clientY;
-};
+}
 
-exports.pageX = function (e) {
+export function pageX(e) {
   return e.pageX;
-};
+}
 
-exports.pageY = function (e) {
+export function pageY(e) {
   return e.pageY;
-};
+}
 
-exports.ctrlKey = function (e) {
+export function ctrlKey(e) {
   return e.ctrlKey;
-};
+}
 
-exports.shiftKey = function (e) {
+export function shiftKey(e) {
   return e.shiftKey;
-};
+}
 
-exports.altKey = function (e) {
+export function altKey(e) {
   return e.altKey;
-};
+}
 
-exports.metaKey = function (e) {
+export function metaKey(e) {
   return e.metaKey;
-};
+}
 
-exports.button = function (e) {
+export function button(e) {
   return e.button;
-};
+}
 
-exports._relatedTarget = function (e) {
+export function _relatedTarget(e) {
   return e.relatedTarget;
-};
+}
 
-exports.buttons = function (e) {
+export function buttons(e) {
   return e.buttons;
-};
+}
 
-exports.getModifierState = function (s) {
+export function getModifierState(s) {
   return function (e) {
     return function () {
       return e.getModifierState(s);
     };
   };
-};
+}
 
-exports.pointerId = function (e) {
+export function pointerId(e) {
   return e.pointerId;
-};
+}
 
-exports.width = function (e) {
+export function width(e) {
   return e.width;
-};
+}
 
-exports.height = function (e) {
+export function height(e) {
   return e.height;
-};
+}
 
-exports.pressure = function (e) {
+export function pressure(e) {
   return e.pressure;
-};
+}
 
-exports.tangentialPressure = function (e) {
+export function tangentialPressure(e) {
   return e.tangentialPressure;
-};
+}
 
-exports.tiltX = function (e) {
+export function tiltX(e) {
   return e.tiltX;
-};
+}
 
-exports.tiltY = function (e) {
+export function tiltY(e) {
   return e.tiltY;
-};
+}
 
-exports.twist = function (e) {
+export function twist(e) {
   return e.twist;
-};
+}
 
-exports.pointerType = function (e) {
+export function pointerType(e) {
   return e.pointerType;
-};
+}
 
-exports.isPrimary = function (e) {
+export function isPrimary(e) {
   return e.isPrimary;
-};
+}

@@ -1,25 +1,25 @@
-"use strict";
 
-exports.setPointerCapture = function (element) {
+
+export function setPointerCapture(element) {
   return function (pointerId) {
     return function () {
       return element.setPointerCapture(pointerId);
     };
   };
-};
+}
 
-exports.releasePointerCapture = function (element) {
+export function releasePointerCapture(element) {
   return function (pointerId) {
     return function () {
       return element.releasePointerCapture(pointerId);
     };
   };
-};
+}
 
-exports.hasPointerCapture = function (element) {
+export function hasPointerCapture(element) {
   return function (pointerId) {
     return function () {
       return element.hasPointerCapture(pointerId);
     };
   };
-};
+}

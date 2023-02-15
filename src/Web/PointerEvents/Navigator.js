@@ -1,7 +1,7 @@
-"use strict";
 
-exports.maxTouchPoints = function (navigator) {
+
+export function maxTouchPoints(navigator) {
   return function () {
     return navigator.maxTouchPoints;
   };
-};
+}
